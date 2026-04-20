@@ -56,7 +56,6 @@ plt.title("Univariate Linear Regression")
 plt.show()```
 
 ## Output:
-![best fit line](sam.png)
 <img width="961" height="752" alt="image" src="https://github.com/user-attachments/assets/81800b16-2deb-41ad-90fd-8491b61391c0" />
 
 
