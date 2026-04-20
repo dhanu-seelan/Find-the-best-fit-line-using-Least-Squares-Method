@@ -26,33 +26,27 @@ RegisterNumber:  212225040053
 ```import numpy as np
 import matplotlib.pyplot as plt
 
-# Sample data (X: input, Y: output)
 X = np.array([1, 2, 3, 4, 5])
 Y = np.array([2, 4, 5, 4, 5])
 
-# Number of data points
-#n = len(X)
-
-# Calculate mean
 x_mean = np.mean(X)
 y_mean = np.mean(Y)
 
-# Calculate slope (m) and intercept (b)
-numerator = np.sum((X - x_mean) * (Y - y_mean))
-denominator = np.sum((X - x_mean) ** 2)
+Numerator = np.sum((X - x_mean) * (Y - y_mean))
+Denominator = np.sum((X - x_mean) ** 2)
 
-m = numerator/denominator
+m = Numerator/Denominator
 b = y_mean - m * x_mean
 
-print("Slope (m):", m)
-print("Intercept (b):", b)
+print("slope:", m)
+print("intercept:", b)
 
-# Predicted values
+
 Y_pred = m * X + b
-x = input("Enter value: ")
-yy = m * float(x) + b
-print("Value:", yy)
-# Plotting
+x = input("Enter a Number: ")
+result = m * float(x) + b
+print("Value:", result)
+
 plt.scatter(X, Y, label="Data Points")
 plt.plot(X, Y_pred, label="Best Fit Line")
 plt.xlabel("X")
@@ -63,9 +57,10 @@ plt.show()```
 
 ## Output:
 ![best fit line](sam.png)
-<img width="912" height="755" alt="image" src="https://github.com/user-attachments/assets/e5c003d8-c0dc-4550-af66-b53fa1b07f03" />
+<img width="961" height="752" alt="image" src="https://github.com/user-attachments/assets/81800b16-2deb-41ad-90fd-8491b61391c0" />
 
 
 
 ## Result:
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
+
