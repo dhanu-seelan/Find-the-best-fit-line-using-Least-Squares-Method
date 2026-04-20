@@ -56,7 +56,7 @@ plt.title("Univariate Linear Regression")
 plt.show()
 
 ## Output:
-!!<img width="916" height="747" alt="image" src="https://github.com/user-attachments/assets/772ac4ff-0ec7-4193-8dc7-8e279c014301" />
+<img width="916" height="747" alt="image" src="https://github.com/user-attachments/assets/772ac4ff-0ec7-4193-8dc7-8e279c014301" />
 
 
 
